@@ -1,122 +1,99 @@
-# Editing examples for methodological and simulation papers
+# Editing for a clear research argument
 
-All passages and numerical values below are constructed illustrations. They are
-not findings from the reference papers. Each revision uses only information in
-its input. Editorial commentary is separate from manuscript text.
+These are constructed illustrations, not findings from the reference papers.
+The revisions reorganize supplied material to make the problem, explanation,
+and response easier to follow.
 
-## 1. Tighten expression while preserving the comparison
-
-**Before**
-
-> It is worth noting that, in the condition with 30 clusters and a cluster size of
-> 20, Method A had a coverage rate of .91, whereas Method B had a coverage rate of
-> .95. This comparison was based on 1,000 replications for nominal 95% confidence
-> intervals. These results are for normally distributed indicators only.
-
-**After**
-
-> With 30 clusters and a cluster size of 20, coverage was .91 for Method A and .95
-> for Method B. The comparison used 1,000 replications and nominal 95% confidence
-> intervals, with normally distributed indicators only.
-
-**Editorial note:** Removed empty emphasis and repetition. Retained the interval
-type, nominal level, replication count, and distributional restriction. No test of
-the difference or claim about other conditions was added.
-
-## 2. Reorder paragraphs to connect the question to the design
+## 1. Bring the problem and response forward
 
 **Before**
 
-> We used 1,000 replications per condition. We varied cross-loading magnitude and
-> sign. Factor correlations were the target quantities, and we evaluated their
-> bias and interval coverage.
->
-> Our question was whether a fit-based model choice identified the model with
-> better factor correlation recovery. A model can meet a fit criterion while
-> providing biased estimates of a target parameter. We compared model choices
-> based on fit with factor correlation recovery across the design conditions.
+> We used Monte Carlo simulation to compare two model-selection procedures.
+> The procedures were evaluated in terms of model fit and factor correlation
+> recovery. Cross-loading magnitude and sign were varied. Researchers often
+> select a measurement model using fit criteria, but a model that fits well can
+> still yield biased factor correlations. Our question was whether the selection
+> procedures identified the model with better factor correlation recovery.
 
 **After**
 
-> A model can meet a fit criterion while providing biased estimates of a target
-> parameter. We asked whether a fit-based model choice identified the model with
-> better factor correlation recovery.
->
-> We varied cross-loading magnitude and sign, using 1,000 replications per
-> condition. Factor correlations were the target quantities, and we evaluated
-> their bias and interval coverage. We compared model choices based on fit with
-> factor correlation recovery across the design conditions.
+> Researchers often select a measurement model using fit criteria, yet good fit
+> can coexist with biased factor correlations. We asked whether two model-selection
+> procedures identified the model with better factor correlation recovery.
+> To examine this question, we compared their fit and factor correlation recovery
+> in a Monte Carlo simulation that varied cross-loading magnitude and sign.
 
-**Organization note:** Moved the rationale and question before the design.
-Retained every design detail and the comparison. The revision does not assert
-that the hypothesized discrepancy actually occurred.
+**Editorial decision:** Opened with the methodological problem and used it to
+motivate the comparison. The design now follows from the question.
 
-## 3. Flag missing evidence without supplying it
-
-**Input**
-
-> Our estimator was more robust than the alternatives when indicators were skewed.
-
-**Review comment**
-
-> "More robust" does not identify the performance measure, comparison methods, or
-> skewness conditions. The supplied passage contains no supporting result. Please
-> identify the relevant results and clarify whether robustness refers to bias,
-> coverage, convergence, or another criterion. I have retained the claim pending
-> that clarification.
-
-**Editorial note:** No invented table, effect size, test, or narrower substantive
-claim. A polished final sentence requires the missing information.
-
-## 4. Make a change in inferential strength visible
-
-**Input**
-
-> In the simulation, absolute bias was smaller for Method A than Method B at sample sizes
-> of 100 and 200. This proves that Method A is unbiased in all samples.
-
-**Substantive proposal**
-
-> In the simulation, absolute bias was smaller for Method A than Method B at sample sizes
-> of 100 and 200. These results favor Method A on absolute bias under the conditions examined.
-
-**Reason:** Smaller simulated absolute bias does not establish zero bias or a claim about
-all samples. The proposed revision narrows the interpretation and must be reported
-as substantive. With copyediting-only authorization, retain the original claim
-and attach this concern; do not silently substitute the alternative.
-
-## 5. Preserve a theoretical claim and its mathematical condition
+## 2. State the finding without repeated defensive framing
 
 **Before**
 
-> It is worth emphasizing that Proposition 1 proves consistency under Assumptions
-> A1–A4. The proof requires $n \to \infty$ with the number of indicators fixed
-> \citep{example_theory}.
+> It is important to exercise caution in interpreting these results because
+> they pertain to the conditions examined. In the conditions where within- and
+> between-cluster slopes differed, centering reduced absolute slope bias from
+> .12 to .02. Centering separates the within-cluster component from the
+> between-cluster component. These results are consistent with that explanation,
+> although it should again be emphasized that the finding concerns the conditions
+> with differing within- and between-cluster slopes.
 
 **After**
 
-> Proposition 1 proves consistency under Assumptions A1–A4. The proof requires
-> $n \to \infty$ with the number of indicators fixed \citep{example_theory}.
+> When within- and between-cluster slopes differed, centering reduced absolute
+> slope bias from .12 to .02. This reduction is consistent with the role of
+> centering in separating the within-cluster component from the between-cluster
+> component.
 
-**Editorial note:** Retained "proves," the technical meaning of consistency, the
-assumptions, equation, and citation key. The theorem itself was not verified from
-this excerpt. The citation key is illustrative, not a real reference to add.
+**Editorial decision:** Kept the condition that gives the finding its meaning,
+then connected the finding to its explanation. Removed repeated caution that
+added no further boundary.
 
-## 6. Keep failure information and interval interpretation visible
+## 3. Organize results around the answer
 
 **Before**
 
-> Among the 940 converged fits from 1,000 attempted replications, the 95% credible
-> intervals had coverage of .93. We excluded the remaining fits from this summary.
-> It should be noted that this is a summary among converged fits.
+> Method A met the fit criterion. Method B also met the fit criterion.
+> Absolute bias was .03 for Method A. For Method B, absolute bias was .18.
+> Both procedures were evaluated using the same generating conditions.
+> Method B's estimates were substantially biased despite meeting the fit criterion.
 
 **After**
 
-> Among the 940 converged fits from 1,000 attempted replications, the 95% credible
-> intervals had coverage of .93. The remaining fits were excluded from this summary.
+> Meeting the fit criterion did not distinguish the methods' parameter recovery.
+> Under the same generating conditions, both methods met the criterion, but
+> absolute bias was .03 for Method A and .18 for Method B. Method B's substantial
+> bias therefore remained hidden by the fit-based judgment.
 
-**Editorial note:** Removed a repeated qualification while retaining the
-denominator, exclusions, and credible-interval label. The .93 is a simulated
-coverage rate, not a posterior probability. If relevant to the interpretation,
-flag whether the failure pattern and Monte Carlo uncertainty were examined;
-do not add unreported diagnostics or computed values during a prose edit.
+**Editorial decision:** Led with what the comparison reveals and used the numbers
+to establish it. Replaced the sequence of method-by-method statements with a
+connected interpretation.
+
+## 4. Give implementation details an appropriate home
+
+**Before: an introduction paragraph**
+
+> We used 1,000 replications per condition and sample sizes of 100 and 500.
+> Both analysis procedures were fitted to each generated dataset. The research
+> question was whether separating within- and between-cluster predictor components
+> improved recovery of the within-cluster slope. A predictor can contain variation
+> at both levels, so combining these components can obscure the relationship
+> of interest. We compared a model using the combined predictor with a model
+> separating its components.
+
+**After: introduction**
+
+> A predictor can contain both within- and between-cluster variation. Combining
+> these components can obscure the within-cluster relationship of interest.
+> We examined whether separating them improved recovery of the within-cluster
+> slope by comparing a model using the combined predictor with a model separating
+> its components.
+
+**Retained for methods**
+
+> We used 1,000 replications per condition and sample sizes of 100 and 500.
+> Both analysis procedures were fitted to each generated dataset.
+
+**Editorial decision:** Kept the introduction focused on the source of the
+problem and the idea behind the comparison. Relocated the supplied implementation
+details to methods, where they help readers understand the study's execution.
