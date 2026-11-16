@@ -11,44 +11,33 @@ The user's preference is to preserve this clear research story and avoid
 defensive writing that buries the contribution beneath qualifications and
 implementation details.
 
-## Narrative choices in the initial anchors
+## Passages for an explicit reference-voice revision
 
-These are qualitative readings of selected passages, not fixed templates or
-claims that every paper follows the same structure.
+Choose passages that serve the same explanatory purpose as the text being
+revised. A conceptual introduction, an equation-led explanation, and a results
+paragraph ask different things of their readers. Read the relevant prose with
+its equation or figure; there is no need to read every passage below for each edit.
 
-### X Matters Too
+Pages refer to printed journal pagination, which may differ from PDF page numbers.
+The source table below gives DOI links and Zotero library item keys. Where
+available, use the full-text attachment associated with the item to locate these
+sections. These notes describe editorial choices; the article text stays outside
+the repository.
 
-The paper makes a familiar analytic decision consequential: accounting for
-clustering requires attention to predictors as well as outcomes. It explains how
-within- and between-cluster relationships can become blended, works through the
-mechanism, and develops the centering response. Simulation then makes the
-consequences visible across analytic choices, and the discussion returns to
-situations researchers face.
+| Explanatory purpose | Source and precise location | What to learn from the passage |
+| --- | --- | --- |
+| Turn an expected result into a research question | *On the Behavior of Fit Indices*, p. 345, **The current study**, from its opening to **Methods** | The expected fit advantage of ESEM motivates a question about when CFA might be preferred. The measures and design features enter through their role in answering it. |
+| Introduce a mechanism through an equation | *X Matters Too*, pp. 3–4, **The “Blended Slope” Problem**: opening paragraph, Equation 1, and its interpretation after Equations 2–3, before Figure 1A | The prose first identifies what is being mixed. The equation expresses the mixture, and the subsequent explanation shows how the directions of the two relationships affect it. |
+| Explain why a response addresses the problem | *X Matters Too*, p. 7, **Fixing the Problem**, first paragraph | The explanation returns to the mixture in Equation 1 and shows what centering does to its components. The method follows from the mechanism. |
+| Connect the question to the design | *The SEM Reliability Paradox in a Bayesian Framework*, pp. 100–101, **2. The Current Study**, ending before **3. Methods** | The passage states what carries over from the earlier problem, then explains why measurement quality, misspecification, and prior informativeness belong in the investigation. |
+| Interpret a pattern in the results | *On the Behavior of Fit Indices*, pp. 350–351, **CFI and ΔCFI**, particularly the paragraph following Figure 3, ending before **RMSEA and ΔRMSEA** | The figure supports a comparison between model specifications. The paragraph explains how measurement quality changes that comparison and connects the pattern to model-selection decisions. |
+| Turn findings into implications for analysts | *X Matters Too*, p. 15, **Discussion**, opening paragraph before Table 2 | The opening gathers the main mechanism and findings, then organizes their interpretation around recognizable analytic circumstances. |
 
-**Editorial lesson:** Give readers an understandable problem and a reason for the
-response before asking them to follow a simulation design. Mathematics and
-simulation can advance the same explanation.
-
-### The SEM Reliability Paradox in a Bayesian Framework
-
-The motivating puzzle is that better measurement can coincide with worse overall
-fit under the same structural misspecification. The paper asks whether this
-behavior carries over to Bayesian fit measures. Population analysis and simulation
-serve that question, and differences among indices organize the answer.
-
-**Editorial lesson:** An apparent contradiction can focus a paper. Introduce
-technical comparisons through the question they resolve.
-
-### On the Behavior of Fit Indices
-
-The paper connects the choice between CFA and ESEM to a substantive methodological
-concern: whether judgments based on model fit align with recovery of factor
-correlations when cross-loadings are involved. The design and findings develop
-that question, and the discussion returns to the implications of using fit
-criteria to choose a model.
-
-**Editorial lesson:** Show why a methodological comparison matters. Connect the
-criterion researchers use to the outcome they care about.
+These readings illustrate how a line of reasoning develops through technical
+material. They do not prescribe sentence lengths, identical paragraph patterns,
+or the same amount of detail for every manuscript. Use the comparison to decide
+what readers need to understand next, where notation helps, and which details
+deserve emphasis.
 
 ## Apply this to a manuscript
 
@@ -100,5 +89,5 @@ identifiers, with full texts kept outside it.
 
 Use these papers to guide explanation and organization while writing original
 prose about the user's study. Their methodological recommendations belong to
-their own research contexts. Ordinary editing uses this profile; retrieve a
-specific source passage only when it would help with further calibration.
+their own research contexts. An explicit reference-voice revision uses relevant
+source passages when accessible; ordinary editing can work from this profile.

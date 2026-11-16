@@ -20,6 +20,14 @@ and argument flow by default; respect a request for a narrower pass.
 Use the [reference voice profile](references/voice-profile.md) for this fork.
 Explicit preferences and the user's own writing samples take precedence.
 
+When explicitly asked to revise toward the reference voice, read relevant passages
+from the identified papers when accessible. The profile gives passage locations
+and their explanatory purposes. Select passages with a comparable purpose, and
+use their development of reasoning, pacing, and placement of technical detail to
+guide reconstruction of the manuscript. Ordinary editing can use the profile
+without repeated source retrieval. If source text is unavailable, work from the
+profile without claiming to have read the passages.
+
 ## Find the argument before editing sentences
 
 Read for the paper's central question and contribution. What practice, assumption,
