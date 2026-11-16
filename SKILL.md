@@ -32,8 +32,13 @@ an existing approach works. Give its particular contribution a clear shape.
 
 When the contribution is buried, bring it forward. Connect prior research to the
 problem it helps explain. Make the reasoning from problem to response visible
-before introducing the details of implementation. Suggest consequential changes
+before introducing the details of implementation. Explain consequential changes
 to framing and paragraph order with a brief reason.
+
+When substantial revision or restructuring is requested, rebuild paragraphs or
+sections around their purpose. Use the existing text as source material without
+treating its paragraph structure or order as fixed. Make those changes in the
+revision rather than limiting the response to suggestions.
 
 ## Make technical detail serve the explanation
 
@@ -41,17 +46,24 @@ Choose detail by what it helps the reader understand at that point in the paper.
 An equation can reveal the source of a problem; a simulation comparison can
 isolate it; an example can explain why it matters. Develop those connections.
 
+Explain what a relationship means and why it matters. Keep an equation when it
+expresses the relationship efficiently; avoid translating its full symbolic
+structure into a long sentence.
+
 In introductions, emphasize the problem and the idea behind the response. In
 methods, explain how the design answers the question and provide the information
 needed to understand and reproduce the study. In results, organize the account
 around findings that answer the question. In discussion, explain what has been
 resolved and what it changes for research or practice.
 
-Move routine settings, exhaustive condition summaries, and secondary checks to
-an appropriate methods passage, table, or supplement when they interrupt the
-argument. Preserve the information or clearly propose its new location when
-editing only an excerpt. A methodological paper can be technically substantial
-and still have a clear story.
+Cut redundant explanations, unnecessary comparisons, and peripheral digressions
+that do not advance the argument. Retain details needed to interpret or reproduce
+the study, placing routine settings, exhaustive condition summaries, and secondary
+checks in a methods passage, table, or supplement when they interrupt the argument.
+When editing only an excerpt, identify where such details should go. Preserving
+the research does not require retaining every sentence or relocating everything
+that is cut. A methodological paper can be technically substantial and still have
+a clear story.
 
 ## Write with directness and explanatory depth
 
@@ -72,7 +84,8 @@ interpretation, and moving implementation details out of the main argument.
 
 ## Keep the account faithful
 
-Preserve the study's meaning, results, notation, equations, and citation associations.
+Preserve the study's meaning and evidence. Keep reported results, mathematical
+expressions, and citation associations accurate.
 Use supplied evidence; do not invent facts to complete an argument. Check fidelity
 quietly after revision. If a scientific issue materially affects the central
 argument, raise a focused author note with a proposed resolution. Avoid turning
