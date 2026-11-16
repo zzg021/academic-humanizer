@@ -53,9 +53,11 @@ make a methodological difficulty intelligible, explain its source, develop the
 response, and connect the evidence to what researchers should understand.
 
 It identifies three initial anchors and four additional papers, with DOI links
-and Zotero item keys. The profile is provisional and can be refined through edits
-of the user's writing. It works without Zotero or network access; article full
-text is not included in the repository.
+and Zotero item keys. For an explicit reference-voice revision, it also locates
+selected passages by page, section, and explanatory purpose so the agent can read
+relevant source passages. Ordinary editing works from the profile without Zotero
+or network access. The profile is provisional and can be refined through edits of
+the user's writing; article full text is not included in the repository.
 
 ## Install from this fork
 
